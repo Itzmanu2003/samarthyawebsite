@@ -1,0 +1,23 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.head{
+    background: rgb(148,149,153);
+    background: radial-gradient(circle, rgba(148,149,153,0.16859243697478987) 0%, rgba(16,149,199,1) 0%, rgba(45,50,180,1) 100%);
+    height: 70px;
+    font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+padding: 15px;
+color: white;
+}
+
+.cardsconatiner{
+    
+    transition: 1s;
+}
+.cardsconatiner:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 9px gray;
+}
+
